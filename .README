@@ -8,6 +8,7 @@ variables:
         - blackShieldPromoLink - link for black shield promo site
         - programCompanyName - name of program company
         - programCompanyAddress - address of program company
+        - template - light or dark theme. possible options: with_margin / with_margin_light
 
     verification code:
         - verificationCode - code we display on verification screen
