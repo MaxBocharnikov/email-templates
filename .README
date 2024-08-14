@@ -1,0 +1,5 @@
+variables:
+    verificationCode - code we display on verification screen
+    bsrLogo - BlackShield main logo
+    carrierLogo - carrier logo we display in header
+    primaryColor - primary program color
