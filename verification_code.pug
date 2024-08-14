@@ -1,15 +1,10 @@
-//-
-  Variables:
-  1. Logo
-  2. Color footer links
-  4. Terms links
 extends layouts/base
 
 block content
     include layouts/header
     tr
-        td(style="height: auto; background-color: #ffffff; padding: 20px 40px; vertical-align: top;")
-            h2(style="margin: 0; padding: 0; font-size: 2rem; line-height: 3rem; margin-bottom: 40px;") Verification code
+        td(style="height: auto; background-color: #ffffff; padding: 40px; vertical-align: top;")
+            h2(style="margin: 0; padding: 0; font-size: 2rem; line-height: 3rem; font-weight: 700; margin-bottom: 40px;") Verification Code
             p(style="margin: 0; padding: 0; font-size: 20px; line-height: 30px; margin-bottom: 40px;") Please use the verification code below to verify yourself:
-            p(style="margin: 0; padding: 0; font-size: 2rem; line-height: 3rem; font-weight: 700;") #{verificationCode}
+            p(style="margin: 0; padding: 0; font-size: 2rem; line-height: 3rem; font-weight: 700; margin-bottom: 24px") #{verificationCode}
     include layouts/footer

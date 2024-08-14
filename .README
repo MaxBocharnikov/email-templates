@@ -1,5 +1,10 @@
 variables:
     verificationCode - code we display on verification screen
     bsrLogo - BlackShield main logo
-    carrierLogo - carrier logo we display in header
+    producerLogo - producer logo
     primaryColor - primary program color
+    termsOfUseLink - href for terms of use link
+    privacyPolicyLink - href for privacy policy link
+    blackShieldPromoLink - link for black shield promo site
+    programCompanyName - name of program company
+    programCompanyAddress - address of program company
